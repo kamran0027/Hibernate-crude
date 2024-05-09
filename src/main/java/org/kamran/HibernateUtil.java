@@ -28,6 +28,7 @@ public class HibernateUtil {
 
             //add the class or entity name
             configuration.addAnnotatedClass(Student.class);
+            configuration.addAnnotatedClass(Address.class);
 
             ServiceRegistry serviceRegistry=new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
 

@@ -4,7 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8acd23a-74f5-4e16-b58f-57ff7c631494" name="Changes" comment="add the aanotion class">
+    <list default="true" id="c8acd23a-74f5-4e16-b58f-57ff7c631494" name="Changes" comment="create table and insert value in it">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kamran/Address.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kamran/AddressApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kamran/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kamran/HibernateUtil.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/org/kamran/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kamran/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -33,6 +37,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.AddressApp.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -40,7 +45,7 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kamra/.m2/repository/org/hibernate/hibernate-core/5.6.9.Final/hibernate-core-5.6.9.Final.jar",
+    "last_opened_file_path": "C:/Users/kamra/Desktop/MySecondJpaHebernate",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
@@ -102,7 +107,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715105753715</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="create table and insert value in it">
+      <option name="closed" value="true" />
+      <created>1715108739645</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1715108739645</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -111,7 +124,8 @@
     <MESSAGE value="testing the configyration" />
     <MESSAGE value="create a student class and use annotation" />
     <MESSAGE value="add the aanotion class" />
-    <option name="LAST_COMMIT_MESSAGE" value="add the aanotion class" />
+    <MESSAGE value="create table and insert value in it" />
+    <option name="LAST_COMMIT_MESSAGE" value="create table and insert value in it" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
