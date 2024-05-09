@@ -4,6 +4,9 @@ import org.hibernate.Session;
 import org.hibernate.SessionFactory;
 import org.hibernate.Transaction;
 
+import java.io.File;
+import java.io.FileInputStream;
+import java.util.Arrays;
 import java.util.Date;
 
 public class AddressApp {
@@ -21,6 +24,10 @@ public class AddressApp {
             ad.setAddedDate(new Date());
 
             //set the image
+//            FileInputStream fis=new FileInputStream("src/main/java/pic.jpg");
+//            byte[] data=new byte[fis.available()];
+//            fis.read(data);
+//            ad.setImage(data);
 
 
             Session session= factory.openSession();

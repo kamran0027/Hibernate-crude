@@ -4,12 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8acd23a-74f5-4e16-b58f-57ff7c631494" name="Changes" comment="create table and insert value in it">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kamran/Address.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kamran/AddressApp.java" afterDir="false" />
+    <list default="true" id="c8acd23a-74f5-4e16-b58f-57ff7c631494" name="Changes" comment="saving the data into the database using adressApp main class">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kamran/FetchDemo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/pic.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kamran/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kamran/HibernateUtil.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kamran/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kamran/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kamran/AddressApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kamran/AddressApp.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,6 +37,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AddressApp.executor": "Run",
+    "Application.FetchDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
@@ -45,12 +45,21 @@
     "git-widget-placeholder": "master",
     "ignore.virus.scanning.warn.message": "true",
     "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/kamra/Desktop/MySecondJpaHebernate",
+    "last_opened_file_path": "C:/Users/kamra/Desktop/MySecondJpaHebernate/src/main/java",
     "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\kamra\Desktop\MySecondJpaHebernate\src\main\java" />
+      <recent name="C:\Users\kamra\Desktop\MySecondJpaHebernate\src\main\java\org\kamran" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\kamra\Desktop\MySecondJpaHebernate\src\main\java" />
+    </key>
+  </component>
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
@@ -115,7 +124,31 @@
       <option name="project" value="LOCAL" />
       <updated>1715108739645</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="create another addres class">
+      <option name="closed" value="true" />
+      <created>1715275704804</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1715275704804</updated>
+    </task>
+    <task id="LOCAL-00008" summary="commit">
+      <option name="closed" value="true" />
+      <created>1715275726305</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1715275726305</updated>
+    </task>
+    <task id="LOCAL-00009" summary="saving the data into the database using adressApp main class">
+      <option name="closed" value="true" />
+      <created>1715275769144</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1715275769144</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -125,7 +158,10 @@
     <MESSAGE value="create a student class and use annotation" />
     <MESSAGE value="add the aanotion class" />
     <MESSAGE value="create table and insert value in it" />
-    <option name="LAST_COMMIT_MESSAGE" value="create table and insert value in it" />
+    <MESSAGE value="create another addres class" />
+    <MESSAGE value="commit" />
+    <MESSAGE value="saving the data into the database using adressApp main class" />
+    <option name="LAST_COMMIT_MESSAGE" value="saving the data into the database using adressApp main class" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
