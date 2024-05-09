@@ -13,10 +13,10 @@ public class Main {
 
 
             Student st=new Student();
-            st.setId(103);
-            st.setName("adarsh");
-            st.setCity("grugaon");
-            st.setAge(20);
+            st.setId(104);
+            st.setName("amber");
+            st.setCity("jharkand");
+            st.setAge(21);
 
             System.out.println(st);
 
