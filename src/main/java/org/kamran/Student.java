@@ -13,6 +13,16 @@ public class Student {
     private String city;
     private int age;
 
+    private Certificate certi;
+
+    public Certificate getCerti() {
+        return certi;
+    }
+
+    public void setCerti(Certificate certi) {
+        this.certi = certi;
+    }
+
     public Student(int id, String name, String city, int age) {
         super();
         this.id = id;
