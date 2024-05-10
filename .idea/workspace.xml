@@ -4,11 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c8acd23a-74f5-4e16-b58f-57ff7c631494" name="Changes" comment="saving the data into the database using adressApp main class">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/kamran/FetchDemo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/pic.jpg" afterDir="false" />
+    <list default="true" id="c8acd23a-74f5-4e16-b58f-57ff7c631494" name="Changes" comment="fetching data from databse using get and load">
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kamran/Certificate.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/org/kamran/Embeddemo.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/kamran/AddressApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kamran/AddressApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kamran/HibernateUtil.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kamran/HibernateUtil.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/kamran/Student.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/kamran/Student.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,6 +38,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "Application.AddressApp.executor": "Run",
+    "Application.Embeddemo.executor": "Run",
     "Application.FetchDemo.executor": "Run",
     "Application.Main.executor": "Run",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
@@ -148,7 +150,15 @@
       <option name="project" value="LOCAL" />
       <updated>1715275769144</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="fetching data from databse using get and load">
+      <option name="closed" value="true" />
+      <created>1715277665464</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1715277665464</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -161,7 +171,8 @@
     <MESSAGE value="create another addres class" />
     <MESSAGE value="commit" />
     <MESSAGE value="saving the data into the database using adressApp main class" />
-    <option name="LAST_COMMIT_MESSAGE" value="saving the data into the database using adressApp main class" />
+    <MESSAGE value="fetching data from databse using get and load" />
+    <option name="LAST_COMMIT_MESSAGE" value="fetching data from databse using get and load" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -169,6 +180,10 @@
         <breakpoint enabled="true" type="java-exception">
           <properties class="java.net.ConnectException" package="java.net" />
           <option name="timeStamp" value="1" />
+        </breakpoint>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="org.hibernate.exception.ConstraintViolationException" package="org.hibernate.exception" />
+          <option name="timeStamp" value="2" />
         </breakpoint>
       </breakpoints>
     </breakpoint-manager>
