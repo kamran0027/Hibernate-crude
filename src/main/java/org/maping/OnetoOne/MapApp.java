@@ -1,4 +1,4 @@
-package org.maping;
+package org.maping.OnetoOne;
 
 import org.hibernate.HibernateException;
 import org.hibernate.Session;

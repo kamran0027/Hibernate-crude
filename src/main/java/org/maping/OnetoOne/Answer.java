@@ -1,4 +1,4 @@
-package org.maping;
+package org.maping.OnetoOne;
 
 import javax.persistence.Entity;
 import javax.persistence.Id;
