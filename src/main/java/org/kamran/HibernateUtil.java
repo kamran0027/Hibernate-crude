@@ -9,6 +9,8 @@ import org.hibernate.cfg.Environment;
 import org.hibernate.service.ServiceRegistry;
 import org.maping.OnetoOne.Answer;
 import org.maping.OnetoOne.Question;
+import org.maping.manyToMany.Emp;
+import org.maping.manyToMany.Project;
 
 import java.util.Properties;
 
@@ -33,6 +35,8 @@ public class HibernateUtil {
             configuration.addAnnotatedClass(Address.class);
             configuration.addAnnotatedClass(Question.class);
             configuration.addAnnotatedClass(Answer.class);
+            configuration.addAnnotatedClass(Emp.class);
+            configuration.addAnnotatedClass(Project.class);
 
             ServiceRegistry serviceRegistry=new StandardServiceRegistryBuilder().applySettings(configuration.getProperties()).build();
 
